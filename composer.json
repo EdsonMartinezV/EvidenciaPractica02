@@ -1,0 +1,16 @@
+{
+    "name": "edson_mtz/poo_evidence",
+    "description": "Practical evidence about POO for the subject of web programming with frameworks",
+    "autoload": {
+        "psr-4": {
+            "EdsonMtz\\PooEvidence\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EdsonMartinez",
+            "email": "EdsonMaartinez@hotmail.com"
+        }
+    ],
+    "require": {}
+}
