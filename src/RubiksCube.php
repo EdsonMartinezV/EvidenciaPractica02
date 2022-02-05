@@ -4,7 +4,11 @@ namespace EdsonMtz\PooEvidence;
 
 class RubiksCube extends Toy{
 
-    public function __construct(protected string $name, protected int $price, protected string $category, protected int $layers, protected string $theme){
+    public function __construct(protected string $name,
+                                protected int $price,
+                                protected string $category,
+                                protected int $layers,
+                                protected string $theme){
         parent::__construct($name, $price, $category);
     }
 
