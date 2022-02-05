@@ -1,6 +1,6 @@
 <?php
 
 require 'vendor/autoload.php';
-use EdsonMtz\PooEvidence\Post;
+use EdsonMtz\PooEvidence;
 
  echo "Hello world";

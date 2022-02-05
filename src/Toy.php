@@ -4,12 +4,16 @@ namespace EdsonMtz\PooEvidence;
 
 class Toy{
 
-    public function __construct(private string $name,
-                                private int $price,
-                                private string $category){}
+    public function __construct(protected string $name,
+                                protected int $price,
+                                protected string $category){}
 
     public function play(){
         echo "This toy is being played";
+    }
+
+    public function describe():string{
+        return "This toy is a(n) $this->name, it is $$this->price and its category is $this->category";
     }
 
     public function getName():string{
