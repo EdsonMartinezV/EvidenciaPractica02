@@ -1,5 +1,4 @@
 <?php
-
 namespace EdsonMtz\PooEvidence;
 
 class RubiksCube extends Toy{

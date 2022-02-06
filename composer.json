@@ -12,5 +12,7 @@
             "email": "EdsonMaartinez@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "league/oauth2-server": "^8.3"
+    }
 }
